@@ -1,2 +1,2 @@
 # logipole-translation
-Translations from logipole.com programs (english to spanish)
+Translations from [logipole](logipole.com) programs 
