@@ -1,0 +1,708 @@
+﻿[XML]
+Inicio
+Carpetas
+Archivos
+Metadata
+Setup
+
+    <Command Name="cmdTab1Group1" LabelTitle="Diseño">
+    <Command Name="cmdShowFolders" Symbol="ID_DISPLAY_FOLDERS" LabelTitle=" Carpetas" TooltipTitle="Vista en árbol  (Ctrl+F7)" TooltipDescription="Muestra / oculta el árbol de carpetas." Keytip="Ctrl + F7">
+    <Command Name="cmdShowStatusBar" Symbol="ID_DISPLAY_STATUSBAR" LabelTitle="Estado" TooltipTitle="Barra de estado  (Ctrl+F6)" TooltipDescription="Muestra / oculta la barra de estado." Keytip="Ctrl + F6">
+
+    <Command Name="cmdTab1Group2"  LabelTitle="Display">
+    
+    <Command Name="cmdSort" Symbol="ID_SORT" LabelTitle="Ordenar" TooltipTitle="Ordenar por" TooltipDescription="Ordena de manera ascendente o descendente según diversos criterios.">
+    <Command Name="cmdSortByName" Symbol="ID_SORT_BY_NAME" LabelTitle="Nombre" />
+    <Command Name="cmdSortByExt" Symbol="ID_SORT_BY_EXT" LabelTitle="Extensión" />
+    <Command Name="cmdSortByType" Symbol="ID_SORT_BY_TYPE" LabelTitle="Tipo de archivo" />
+    <Command Name="cmdSortByAttrs" Symbol="ID_SORT_BY_ATTRS" LabelTitle="Atributos" />
+    <Command Name="cmdSortBySize" Symbol="ID_SORT_BY_SIZE" LabelTitle="Tamaño" />
+    <Command Name="cmdSortByCreationDate" Symbol="ID_SORT_BY_CREATIONDATE" LabelTitle="Fecha de creación" />
+    <Command Name="cmdSortByLastAccessDate" Symbol="ID_SORT_BY_LASTACCESSDATE" LabelTitle="Fecha de último acceso" />
+
+    <Command Name="cmdSortAscending" Symbol="ID_SORT_ASC" LabelTitle="Ascendente" />
+    <Command Name="cmdSortDescending" Symbol="ID_SORT_DESC" LabelTitle="Descendente" />
+
+    <Command Name="cmdDisplayReport" Symbol="ID_DISPLAY_REPORT" LabelTitle=" Reporte " TooltipTitle="Reporte" TooltipDescription="Muestra los archivos como una tabla detallada.">
+    <Command Name="cmdDisplayThumbnail" Symbol="ID_DISPLAY_THUMBNAIL" LabelTitle=" Miniaturas " TooltipTitle="Miniaturas y etiquetas" TooltipDescription="Muestra los archivos como miniaturas con etiquetas.">
+    <Command Name="cmdDisplayJumbo" Symbol="ID_DISPLAY_JUMBO" LabelTitle=" Gigante " TooltipTitle="Iconos y etiquetas gigantes" TooltipDescription="Muestra los archivos como iconos muy grandes (256 x 256) con etiquetas.">
+ 
+    <Command Name="cmdShowList" Symbol="ID_DISPLAY_LIST" LabelTitle="Panel Meta" TooltipTitle="Meta  (Ctrl+F7)" TooltipDescription="Muestra / Oculta la lista de metadatos." Keytip="Ctrl + L">
+    <Command Name="cmdShowMap" Symbol="ID_DISPLAY_MAP" LabelTitle="Panel Mapa" TooltipTitle="Mapa (Ctrl+G)" TooltipDescription="Muestra / Oculta la ventana del mapa." Keytip="Ctrl + G">
+
+    <Command Name="cmdTab1Group3"  LabelTitle="Crear Meta-archivos desde cero"/>
+    <Command Name="cmdScratchExif" Symbol="ID_SCRATCH_EXIF" LabelTitle="Exif" TooltipTitle="Crear Exif desde cero" TooltipDescription="Crea el mismo metadato EXIF en todos los archivos seleccionados.">
+    <Command Name="cmdScratchIptc" Symbol="ID_SCRATCH_IPTC" LabelTitle="Iptc" TooltipTitle="Crear Iptc desde cero" TooltipDescription="Crea el mismo metadato IPTC en todos los archivos seleccionados.">
+     <Command Name="cmdScratchXmp" Symbol="ID_SCRATCH_XMP" LabelTitle="Xmp" TooltipTitle="Crear Xmp desde cero" TooltipDescription="Crea el mismo metadato XMP en todos los archivos seleccionados.">
+
+    <Command Name="cmdTab1Group4" LabelTitle="Añadir / Modicar"/>
+    <Command Name="cmdAddModifExif" Symbol="ID_ADD_MODIF_EXIF" LabelTitle="Exif" TooltipTitle="Añadir o Modificar datos Exif" TooltipDescription="Añadir o Modificar los datos EXIF en el archivo seleccionado.">
+    <Command Name="cmdAddModifIptc" Symbol="ID_ADD_MODIF_IPTC" LabelTitle="Iptc" TooltipTitle="Añadir o Modificar datos Iptc" TooltipDescription="Añadir o Modificar los datos IPTC en el archivo seleccionado.">
+    <Command Name="cmdAddModifXmp" Symbol="ID_ADD_MODIF_XMP" LabelTitle="Xmp" TooltipTitle="Añadir or Modificar datos Xmp" TooltipDescription="Añadir o Modificar los datos XMP en el archivo seleccionado.">
+
+    <Command Name="cmdTab1Group5"  LabelTitle="Folders"/>
+    <Command Name="cmdBrowseUp" Symbol="ID_BROWSE_UP" LabelTitle=" Subir " TooltipTitle="Subir" TooltipDescription="Ir a la carpeta superior.">
+    <Command Name="cmdFolderNew" Symbol="ID_FOLDER_NEW" LabelTitle="Nuevo" TooltipTitle="Nueva Carpeta" TooltipDescription="Crea una carpeta nueva en la carpeta actual.">
+    <Command Name="cmdGoTo" Symbol="ID_GOTO" LabelTitle="Ir a" TooltipTitle="Ir a..." TooltipDescription="Ir directamente a la carpeta seleccionada.">
+    <Command Name="cmdGoToMyComputer" Symbol="ID_GOTO_MYCOMPUTER" LabelTitle="Mi PC" />
+    <Command Name="cmdGoToDesktop" Symbol="ID_GOTO_DESKTOP" LabelTitle="Escritorio" />
+    <Command Name="cmdGoToMyImages" Symbol="ID_GOTO_MYPICTURES" LabelTitle="Mis Imágenes" />
+    <Command Name="cmdGoToMyMusic" Symbol="ID_GOTO_MYMUSIC" LabelTitle="Mi Música" />
+    <Command Name="cmdGoToMyVideo" Symbol="ID_GOTO_MYVIDEO" LabelTitle="Mis Vídeos" />
+    <Command Name="cmdGoToMyDocuments" Symbol="ID_GOTO_MYDOCUMENTS" LabelTitle="Mis Documentos" />
+
+    <Command Name="cmdTab1Group6"  LabelTitle="Files" />
+    <Command Name="cmdRefresh" Symbol="ID_REFRESH" LabelTitle="Actualizar" TooltipTitle="Actualizar (F5)" TooltipDescription="Actualiza la lista.">
+     <Command Name="cmdHighlight" Symbol="ID_HIGHLIGHT" LabelTitle="Resaltar" TooltipTitle="Resaltar" TooltipDescription="Resalta un formato de archivo específico.">
+    <Command Name="cmdHighlightNONE" Symbol="ID_HIGHLIGHT_NONE" LabelTitle="Ninguno" />
+    <Command Name="cmdHighlightCANHAVEMETADATA" Symbol="ID_HIGHLIGHT_CANHAVEMETADATA" LabelTitle="Formatos que pueden incrustar metadatos" />
+    <Command Name="cmdHighlightJPEG" Symbol="ID_HIGHLIGHT_JPEG" LabelTitle="JPEG" />
+    <Command Name="cmdHighlightPNG" Symbol="ID_HIGHLIGHT_PNG" LabelTitle="PNG" />
+    <Command Name="cmdHighlightTIFF" Symbol="ID_HIGHLIGHT_TIFF" LabelTitle="TIFF" />
+
+    <Command Name="cmdTab1Group7"  LabelTitle="Columnas para mostrar"/>
+    <Command Name="cmdColumnsSystem" Symbol="ID_COLUMNS_SYSTEM" LabelTitle="Sistema">
+
+    <Command Name="cmdColumnsPhotos" Symbol="ID_COLUMNS_PHOTO" LabelTitle="Foto">
+    <Command Name="cmdPhotosMixed" Symbol="ID_PHOTOS_MIXED" LabelTitle="Mezclado" />
+    <Command Name="cmdPhotosCameras" Symbol="ID_PHOTOS_CAMERA" LabelTitle="Opciones de Cámaras" />
+    <Command Name="cmdPhotosLocation" Symbol="ID_PHOTOS_LOCATION" LabelTitle="Info de Localización" />
+
+    <Command Name="cmdColumnsGps" Symbol="ID_COLUMNS_GPS" LabelTitle="GPS">
+
+    <Command Name="cmdColumnsEXIF" Symbol="ID_COLUMNS_EXIF" LabelTitle="EXIF">
+    <Command Name="cmdExifMixed" Symbol="ID_EXIF_MIXED" LabelTitle="Mezclado" />
+    <Command Name="cmdExifIFD0" Symbol="ID_EXIF_IFD0" LabelTitle="IFD0" />
+    <Command Name="cmdExifIFD1" Symbol="ID_EXIF_IFD1" LabelTitle="IFD1" />
+    <Command Name="cmdExifIFD2" Symbol="ID_EXIF_IFD2" LabelTitle="IFD2" />
+    <Command Name="cmdExifIFD3" Symbol="ID_EXIF_IFD3" LabelTitle="IFD3" />
+    <Command Name="cmdExifExifIFD" Symbol="ID_EXIF_EXIFIFD" LabelTitle="ExifIFD" />
+    <Command Name="cmdExifSubIFD1" Symbol="ID_EXIF_SUBIFD1" LabelTitle="SubIFD1" />
+    <Command Name="cmdExifSubIFD2" Symbol="ID_EXIF_SUBIFD2" LabelTitle="SubIFD2" />
+    <Command Name="cmdExifInterop" Symbol="ID_EXIF_INTEROP" LabelTitle="Interop" />
+
+    <Command Name="cmdColumnsIPTC" Symbol="ID_COLUMNS_IPTC" LabelTitle="IPTC">
+    <Command Name="cmdIptcMixed" Symbol="ID_IPTC_MIXED" LabelTitle="Mezclado" />
+    <Command Name="cmdIptcApplication" Symbol="ID_IPTC_APPLICATION" LabelTitle="Aplicación" />
+    <Command Name="cmdIptcEnvelope" Symbol="ID_IPTC_ENVELOPE" LabelTitle="Envoltura" />
+    <Command Name="cmdIptcObjectData" Symbol="ID_IPTC_OBJECTDATA" LabelTitle="Dato de Objeto" />
+    <Command Name="cmdIptcNewsPhoto" Symbol="ID_IPTC_NEWSPHOTO" LabelTitle="Foto de noticias" />
+
+    <Command Name="cmdTab1Group8" LabelTitle=""/>
+    <Command Name="cmdDonate" Symbol="ID_DONATE" LabelTitle="Realizar una donación" TooltipTitle="Donar" TooltipDescription="Puedes apoyar el proyecto Metadata realizando una donación económica a través de PayPal.&#x0a;&#x0d;La cantidad la eliges tú.">
+ 
+    <Command Name="cmdTab2Group1" LabelTitle="Vista de Carpetas"/>
+    <Command Name="cmdTreeViewShowSystemFolders" Symbol="ID_TREEVIEW_SHOW_SYSTEM_FOLDERS" LabelTitle="Mostrar Carpetas del Sistema (no recomendado)" TooltipTitle="Mostrar Sistema" TooltipDescription="Muestra las carpetas de sistema." />
+    <Command Name="cmdTreeViewShowHiddenFolders" Symbol="ID_TREEVIEW_SHOW_HIDDEN_FOLDERS" LabelTitle="Mostrar Carpetas Ocultas (no recomendado)" TooltipTitle="Mostrar Ocultas" TooltipDescription="Muestra las carpetas ocultas." />
+    <Command Name="cmdTreeViewAutoExpand" Symbol="ID_TREEVIEW_AUTO_EXPAND" LabelTitle="Auto expandir al clickar" TooltipTitle="Auto Expandir" TooltipDescription="La carpeta se abrirá al clickarla." />
+    
+    <Command Name="cmdTab2Group2" LabelTitle="Colores"/>
+    <Command Name="cmdTreeViewSelectColors" Symbol="ID_TREEVIEW_SELECT_COLORS" LabelTitle="Seleccionar" TooltipTitle="Seleccionar Colores" TooltipDescription="Seleccionar colores para los item de las carpetas.">
+
+    <Command Name="cmdTab3Group1" LabelTitle="Archivos"/>
+    <Command Name="cmdListViewShowSystem" Symbol="ID_LISTVIEW_SHOW_SYSTEM" LabelTitle="Mostrar archivos de sistema (no recomendado)" TooltipTitle="Mostrar archivos de sistema" TooltipDescription="Muestra / Oculta los archivos de sistema." />
+    <Command Name="cmdListViewShowHidden" Symbol="ID_LISTVIEW_SHOW_HIDDEN" LabelTitle="Muestra los archivos ocultos (no recomendado)" TooltipTitle="Muestra los archivos ocultos" TooltipDescription="Muestra / Oculta archivos ocultos." />
+    <Command Name="cmdListViewHideExtension" Symbol="ID_LISTVIEW_SHOW_EXTENSION" LabelTitle="Muestra extensiones" TooltipTitle="Muestra las extensiones" TooltipDescription="Muestra / Oculta las extensiones de los archivos." />
+    <Command Name="cmdListViewDisplayFolderSize" Symbol="ID_LISTVIEW_DISPLAY_FOLDER_SIZE" LabelTitle="Muestra tamaño de carpeta" TooltipTitle="Muestra tamaño de carpeta" TooltipDescription="En modo de detalle se mostrará el tamaño de las carpetas." />
+    <Command Name="cmdListViewFriendlyDates" Symbol="ID_LISTVIEW_FRIENDLY_DATES" LabelTitle="Muestra fechas amigables" TooltipTitle="Muestra fechas amigables" TooltipDescription="Muestra las fechas de un modo 'amigable'." />
+    <Command Name="cmdListViewUseTooltips" Symbol="ID_LISTVIEW_USETOOLTIPS" LabelTitle="Usar sugerencias" TooltipTitle="Usar sugerencias" TooltipDescription="Muestra las sugerencias cuando pasa el ratón por un item." />
+    <Command Name="cmdListViewUseSystemTooltips" Symbol="ID_LISTVIEW_USESYSTEMTOOLTIPS" LabelTitle="Usar sugerencias del sistema" TooltipTitle="Usar sugerencias del sistema" TooltipDescription="Usa las sugerencias del sistemasi está seleccionado. De lo contrario, usará sugerenciasde Metadata." />
+
+    <Command Name="cmdTab3Group2" LabelTitle="Colores"/>
+    <Command Name="cmdListViewSelectColors" Symbol="ID_LISTVIEW_SELECT_COLORS" LabelTitle="Seleccionar" TooltipTitle="Seleccionar colores" TooltipDescription="Seleccionar colores para los archivos.">
+
+    <Command Name="cmdTab4Group1" LabelTitle="Informaciones"/>
+    <Command Name="cmdCheckDisplayBasicInformations" Symbol="ID_CHECKDISPLAYBASICINFORMATIONS" LabelTitle="Mostrar básico" />
+    <Command Name="cmdCheckDisplayExifInformations" Symbol="ID_CHECKDISPLAYEXIFINFORMATIONS" LabelTitle="Mostrar Exif" />
+    <Command Name="cmdCheckDisplayIptcInformations" Symbol="ID_CHECKDISPLAYIPTCINFORMATIONS" LabelTitle="Mostrar Iptc" />
+    <Command Name="cmdCheckDisplayXmpInformations" Symbol="ID_CHECKDISPLAYXMPINFORMATIONS" LabelTitle="Mostrar Xmp" />
+    <Command Name="cmdCheckDisplaySpecificInformations" Symbol="ID_CHECKDISPLAYSPECIFICINFORMATIONS" LabelTitle="Mostrar información específica" />
+    <Command Name="cmdCheckDisplayIccInformations" Symbol="ID_CHECKDISPLAYICCINFORMATIONS" LabelTitle="Mostrar Icc" />
+    <Command Name="cmdCheckDisplayMakerNotesInformations" Symbol="ID_CHECKDISPLAYMAKERNOTESINFORMATIONS" LabelTitle="Mostrar MakerNotes" />
+    <Command Name="cmdCheckDisplayCompositeInformations" Symbol="ID_CHECKDISPLAYCOMPOSITEINFORMATIONS" LabelTitle="Mostrar Composite" />
+    <Command Name="cmdCheckDisplayGpsInformations" Symbol="ID_CHECKDISPLAYGPSINFORMATIONS" LabelTitle="Mostrar GPS" />
+
+    <Command Name="cmdTab4Group2" LabelTitle="Misc"/>
+    <Command Name="cmdCheckAlwaysCreateASaveFile" Symbol="ID_CHECK_CREATE_SAVE" LabelTitle="Backup automático al modificar" />
+    <Command Name="cmdCheckKeepDateTime" Symbol="ID_CHECK_KEEP_DATETIME" LabelTitle="Mantener fecha/hora originales" />
+    <Command Name="cmdCheckSearchSidecar" Symbol="ID_CHECK_SEARCH_SIDECAR" LabelTitle="Buscar puntuaciones en el archivo sidecar asociado" />
+    <Command Name="cmdCheckIgnoreMinorErrors" Symbol="ID_CHECK_IGNORE_MINOR_ERRORS" LabelTitle="Ignorar errores menores en los metadatos" />
+    <Command Name="cmdCheckDisplayUnknownTags" Symbol="ID_CHECK_DISPLAY_UNKNOWN_TAGS" LabelTitle="Mostrar etiquetas desconocidas" />
+    <Command Name="cmdDataLanguage" Symbol="ID_DATA_LANGUAGE" LabelTitle="Idioma de datos" />
+    <Command Name="cmdDelay" Symbol="ID_DELAY" LabelTitle="Retraso de Exiftool (ms)" />
+
+     <Command Name="cmdTab5Group1" LabelTitle="Columnas"/>
+    <Command Name="cmdSetupColumns" Symbol="ID_SETUP_COLUMNS" LabelTitle="Sistema">
+    
+    <Command Name="cmdSetupColumnsExif" Symbol="ID_SETUP_COLUMNS_EXIF" LabelTitle="EXIF">
+    <Command Name="cmdSetupColumnsExifMixed" Symbol="ID_SETUP_COLUMNS_EXIF_MIXED" LabelTitle="Mezclado" />
+    <Command Name="cmdSetupColumnsExifIFD0" Symbol="ID_SETUP_COLUMNS_EXIF_IFD0" LabelTitle="IFD0" />
+    <Command Name="cmdSetupColumnsExifIFD1" Symbol="ID_SETUP_COLUMNS_EXIF_IFD1" LabelTitle="IFD1" />
+    <Command Name="cmdSetupColumnsExifIFD2" Symbol="ID_SETUP_COLUMNS_EXIF_IFD2" LabelTitle="IFD2" />
+    <Command Name="cmdSetupColumnsExifIFD3" Symbol="ID_SETUP_COLUMNS_EXIF_IFD3" LabelTitle="IFD3" />
+    <Command Name="cmdSetupColumnsExifExifIFD" Symbol="ID_SETUP_COLUMNS_EXIF_EXIFIFD" LabelTitle="ExifIFD" />
+    <Command Name="cmdSetupColumnsExifSubIFD1" Symbol="ID_SETUP_COLUMNS_EXIF_SUBIFD1" LabelTitle="SubIFD1" />
+    <Command Name="cmdSetupColumnsExifSubIFD2" Symbol="ID_SETUP_COLUMNS_EXIF_SUBIFD2" LabelTitle="SubIFD2" />
+    <Command Name="cmdSetupColumnsExifInterop" Symbol="ID_SETUP_COLUMNS_EXIF_INTEROP" LabelTitle="Interop" />
+
+    <Command Name="cmdSetupColumnsGps" Symbol="ID_SETUP_COLUMNS_GPS" LabelTitle="Gps">
+    
+    <Command Name="cmdSetupColumnsPhoto" Symbol="ID_SETUP_COLUMNS_PHOTO" LabelTitle="Foto">
+    <Command Name="cmdSetupColumnsPhotoMixed" Symbol="ID_SETUP_COLUMNS_PHOTO_MIXED" LabelTitle="Mezclado" />
+    <Command Name="cmdSetupColumnsPhotoCameras" Symbol="ID_SETUP_COLUMNS_PHOTO_CAMERA" LabelTitle="Configuración de las cámaras" />
+    <Command Name="cmdSetupColumnsPhotoLocation" Symbol="ID_SETUP_COLUMNS_PHOTO_LOCATION" LabelTitle="Información de localización" />
+
+    <Command Name="cmdSetupColumnsIptc" Symbol="ID_SETUP_COLUMNS_IPTC" LabelTitle="IPTC">
+    <Command Name="cmdSetupColumnsIptcMixed" Symbol="ID_SETUP_COLUMNS_IPTC_MIXED" LabelTitle="Mezclado" />
+    <Command Name="cmdSetupColumnsIptcApplication" Symbol="ID_SETUP_COLUMNS_IPTC_APPLICATION" LabelTitle="Registro de aplicación" />
+    <Command Name="cmdSetupColumnsIptcEnvelope" Symbol="ID_SETUP_COLUMNS_IPTC_ENVELOPE" LabelTitle="Registro de envoltorio" />
+    <Command Name="cmdSetupColumnsIptcNewsPhoto" Symbol="ID_SETUP_COLUMNS_IPTC_NEWSPHOTO" LabelTitle="Nuevas fotos" />
+    <Command Name="cmdSetupColumnsIptcObjectData" Symbol="ID_SETUP_COLUMNS_IPTC_OBJECTDATA" LabelTitle="Datos de objeto" />
+
+    <Command Name="cmdTab5Group2" LabelTitle="Misc"/>
+    <Command Name="cmdSetupHotkeys" Symbol="ID_SETUP_HOTKEYS" LabelTitle="Atajos" TooltipTitle="Configurar atajos de teclado" TooltipDescription="Configurar los atajos de teclado que se usarán en el programa.">
+    <Command Name="cmdSetupMap" Symbol="ID_SETUP_MAP" LabelTitle="Mapas" Keytip="Ctrl + G">
+
+    <Command Name="cmdExit" Symbol="ID_CMD_EXIT"  LabelTitle="Salir">
+    <Command Name="cmdCheckNewVersion" LabelTitle="Nueva versión?" Symbol="ID_CHECK_NEW_VERSION">
+    <Command Name="cmdLangage" LabelTitle="Idioma" Symbol="ID_LANGAGE">
+    <Command Name="cmdHelpHome" LabelTitle="Inicio" Symbol="ID_HELP_HOME" />
+    <Command Name="cmdHelpFAQ" LabelTitle="FAQ" Symbol="ID_HELP_FAQ" />
+    <Command Name="cmdAbout" Symbol="ID_CMD_ABOUT" LabelTitle="Acerca de">
+
+
+
+[RC]
+
+STRINGTABLE
+BEGIN
+    IDS_A01                 "Etiqueta"
+    IDS_A02                 "Valor"
+    IDS_A03                 "Guardar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_A04                 "Guardar modificaciones en archivo."
+    IDS_A05                 "Cerrar la ventana"
+    IDS_A06                 "Los Metadatos han sido guardados en\n%s."
+    IDS_A07                 "Los Metadatos no pueden ser guardados en\n%s.\nEl programa no puede (aún) escribir metadatos en este formato.\n\n¿Quieres crear un archivo sidecar en la misma carpeta?"
+    IDS_A08                 "El archivo sidecar ha sido creado."
+    IDS_A09                 "Modificar"
+    IDS_A10                 "Modificar las etiquetas seleccionadas."
+    IDS_A11                 "Modificación por lote finalizada."
+    IDS_A12                 "Datos"
+    IDS_A13                 "Tag-Id"
+    IDS_A14                 "Valor   (doble-click en los campos editables para editar)"
+    IDS_C01                 "Ancho"
+    IDS_C02                 "Configuración de cabeceras"
+    IDS_C03                 "Columnas"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_500                 "Nombre del propietario de la cámara, fotógrafo o creador de la imagen."
+    IDS_501                 "Especificar una etiqueta de texto para indicar cómo ha sido usada o asignada la cámara."
+    IDS_502                 "Usado para indicar el copyright del fotógrafo y el editor. Es el aviso de copyright de la persona u organización que asegura poseer los derechos de imagen."
+    IDS_503                 "Fecha y hora de cuándo la imagen fue gardada en digital."
+    IDS_504                 "Nombre del documento del cual esta imagen fue escaneada."
+    IDS_505                 "Graba información acerca del PC usado para generar la imagen."
+    IDS_506                 "Título de la imagen. Puede ser un comentario."
+    IDS_507                 "Registro de qué se ha hecho en la imagen."
+    IDS_508                 "Fabricante del equipo de grabación. Este es el fabricante de la cámara, scanner, digitalizador de video o cualquier otro equipo que haya generado la imagen."
+    IDS_509                 "Modelo del equipo. Este es el nombre o el número de modelo de la cámara, scanner, digitalizador devideo o cualquier otro equipo que haya generado la imagen."
+    IDS_510                 "Fecha y hora de creación de la imagen. El estándar exif define esta etiqueta como la fecha/hora en la que cambió el archivo."
+    IDS_511                 "Propietario de la cámara."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_512                 "Nombre de la página de la cual esta imagen fue escaneada."
+    IDS_513                 "Nombre y versión del software utilizado para post-procesar la imagen."
+    IDS_514                 "Espcifica un nombre para la secuencia de imágenes, donde cada imagen de la secuencia tiene un identificador único."
+    IDS_515                 "Usado para guardar el nombre de un archivo de audio relacionado con la imagen."
+    IDS_516                 "Tipo de pantalla capturada. También usado para guardar el modo en que la imagen fue tomada."
+    IDS_517                 "Clasificación de seguridad asignada a la imagen."
+    IDS_518                 "Encontrado en algunas imágenes escaneadas de un microscopio electrónico."
+    IDS_519                 "Número de serio de la cámara que capturó la imagen."
+    IDS_520                 "Nombre y versión del software o firmware de la cámara o dispositivo usado para generar la imagen."
+    IDS_521                 "Palabras clave o comentarios de la imagen."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_600                 "Creador del objeto.\r\nPor ejemplo, el nombre del fotógrafo."
+    IDS_601                 "El rol del fotógrafo acreditado. Por ejemplo, ayudante o corresponsal."
+    IDS_602                 "Título y/o resumen. Versión completa / resto del encabezado."
+    IDS_603                 "<No Info>"
+    IDS_604                 "Indentifíca el tema del objeto en opinión del proveedor."
+    IDS_605                 "Según la práctica del proveedor e.g. 'Paris'"
+    IDS_606                 "Contacta para más información sobre el objeto."
+    IDS_607                 "País donde tuvo lugar el evento e.g. 'España'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_608                 "Nota de Copyright del proveedor."
+    IDS_609                 "Identifica al proveedor - no tiene por qué ser el propietario / creador."
+    IDS_610                 "<No Info>"
+    IDS_611                 "<No Info>"
+    IDS_612                 "<No Info>"
+    IDS_613                 "Estado de los datos del objeto según el proveedor e.g. 'Corrección'"
+    IDS_614                 "Sinopsis del tema de discusión."
+    IDS_616                 "<No Info>"
+    IDS_615                 "Usado para indicar palabras de recuperación de información específica. Se espera que un proveedor de varios tipos de datos qus están relacionados por un tema use la misma palabra clave, permitiendo que el sistema o subsistema recepto busque por todos los tipos de datos del material relacionado."
+    IDS_617                 "<No Info>"
+    IDS_618                 "Programa origen. Por ejemplo 'Metadata++'."
+    IDS_619                 "<No Info>"
+    IDS_620                 "Versón de programa. Usado sólo si 'Programa Origen' está configurado e.g. '1.2'."
+    IDS_621                 "Según las prácticas del proveedor."
+    IDS_622                 "<No Info>"
+    IDS_623                 "Usado sólo para referirse al previo 1:30."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_624                 "Identifica al propietario / creador original."
+    IDS_625                 "<No Info>"
+    IDS_626                 "Según la práctica del proveedor e.g. 'San Francisco'."
+    IDS_627                 "<No Info>"
+    IDS_628                 "Identifica además el tema del objeto en la opinión del proveedor."
+    IDS_629                 "<No Info>"
+    IDS_630                 "Escritor y/o Editor.\r\nEl que escribió el pie de foto."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_700                 "Historial de las versiones"
+    IDS_701                 "El nombre del autor o fotógrafo."
+    IDS_702                 "Etiqueta alternativa, usada para 'Creador'."
+    IDS_703                 "Un pequeño resumen del título."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_704                 "Catálogo jerárquico de palabras clave y grupos."
+    IDS_705                 "Nombres de los PC clientes."
+    IDS_706                 "Información del Copyright."
+    IDS_707                 "Autores del recurso (listado en orden de precedencia, si procede)."
+    IDS_708                 "Nombre de la primera herramienta usada para crear el recurso."
+    IDS_709                 "Información de contacto del creador: ciudad."
+    IDS_710                 "Información de contacto del creador: país."
+    IDS_711                 "Información de contacto del creador: dirección. Comprende nombre de compañía (opcional) y toda la información requerida para localizar la dirección de entrega de correspondencia."
+    IDS_712                 "Información de contacto del creador: código postal."
+    IDS_713                 "Información de contacto del creador: estado o provincia."
+    IDS_714                 "Información de contacto del creador: dirección email."
+    IDS_715                 "Información de contacto del creador: número de teléfono."
+    IDS_716                 "Información de contacto del creador: página web."
+    IDS_717                 "<No Info>"
+    IDS_718                 "<No Info>"
+    IDS_719                 "<No Info>"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_720                 "<No Info>"
+    IDS_721                 "<No Info>"
+    IDS_722                 "<No Info>"
+    IDS_723                 "Palabras o frases que describan el contenido."
+    IDS_724                 "<No Info>"
+    IDS_725                 "<No Info>"
+    IDS_726                 "<No Info>"
+    IDS_727                 "<No Info>"
+    IDS_728                 "<No Info>"
+    IDS_729                 "Nombre de una o varias personas mostradas en la imagen, separadas por coma."
+    IDS_730                 "Puntuación de 0 a 5."
+    IDS_731                 "<No Info>"
+    IDS_732                 "<No Info>"
+    IDS_733                 "<No Info>"
+    IDS_734                 "Un array sin ordenar de frases o palabras clave descriptivas para especificar el tema del contenido."
+    IDS_735                 "<No Info>"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_736                 "<No Info>"
+    IDS_VIDEO_HEIGHT        "Alto"
+    IDS_VIDEO_WIDTH         "Ancho"
+    IDS_VIDEO_FRAMERATE     "Frame Rate"
+    IDS_VIDEO_DIRECTOR      "Director"
+    IDS_VIDEO_CODEC_NAME    "Códec"
+    IDS_VIDEO_DURATION      "Duración"
+    IDS_VIDEO_ENCODING_BITRATE "Bitrate"
+    IDS_VIDEO_FOURCC        "FourCC"
+    IDS_VIDEO_TITLE         "Título"
+    IDS_VIDEO_TOTAL_BITRATE "Total Bitrate"
+    IDS_VIDEO_COMPRESSION   "Compresión"
+    IDS_VIDEO_STREAMNAME    "Nombre del Stream"
+    IDS_VIDEO_ASPECT_RATIO  "Relación de aspecto"
+    IDS_DEL_1               "Todos los metadatos EXIF serán BORRADOS, ¿estás seguro?"
+    IDS_DEL_2               "Todos los metadatos IPTC serán BORRADOS, ¿estás seguro?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VIDEO_SOFTWARE      "Software"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DEL_3               "Todos los metadatos XMP serán BORRADOS, ¿estás seguro?"
+    IDS_DEL_4               "Todos los metadatos GPS serán BORRADOS, ¿estás seguro?"
+    IDS_DEL_5               "Todos los metadatos MakerNotes serán BORRADOS, ¿estás seguro?"
+    IDS_DEL_6               "Todos los metadatos ICC serán BORRADOS, ¿estás seguro?"
+    IDS_DEL_7               "Todos los metadatos serán BORRADOS, ¿estás seguro?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GPS_1               "Vista aérea del mapa"
+    IDS_GPS_2               "Vista de carreteras del mapa"
+    IDS_GPS_3               "Vista aérea con etiquetas"
+    IDS_GPS_4               "Vista de pájaro"
+    IDS_GPS_5               "Vista de pájaro con etiquetas"
+    IDS_GPS_6               "Zoom max"
+    IDS_GPS_7               "No zoom"
+    IDS_GPS_8               "Este"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GPS_9               "Oeste"
+    IDS_GPS_10              "Norte"
+    IDS_GPS_11              "Sur"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_NAME_PERIOD  "Periodo"
+    IDS_COLUMN_NAME_YEAR    "Año"
+    IDS_COLUMN_NAME_APPNAME "Nombre de la app"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_NAME_MUSIC_GENRE "Género"
+    IDS_COLUMN_NAME_CATEGORY "Categoría"
+    IDS_COLUMN_NAME_MUSIC_MOOD "Estado de ánimo"
+    IDS_COLUMN_NAME_MUSIC_WRITINGAPP "Escrito por la App"
+    IDS_COLUMN_NAME_MUSIC_CHANNELS "Canales"
+    IDS_COLUMN_NAME_MUSIC_CODECID "Audio Codec Id"
+    IDS_COLUMN_NAME_MUSIC_MUXINGAPP "App de Muxing"
+    IDS_COLUMN_NAME_MUSIC_ALBUM "Título de álbum"
+    IDS_COLUMN_NAME_MUSIC_ALBUMID "Id de Album"
+    IDS_COLUMN_NAME_MUSIC_BEATSPERMINUTE "Beats/Minuto"
+    IDS_COLUMN_NAME_MUSIC_BITSPERSAMPLE "Bits/Sample"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_NAME_MUSIC_TRACK "N°"
+    IDS_COLUMN_NAME_MEDIA_DURATION "Duración"
+    IDS_COLUMN_NAME_MUSIC_BITRATE "Audio Bitrate"
+    IDS_COLUMN_NAME_MUSIC_SAMPLERATE "Audio Samplerate"
+    IDS_COLUMN_NAME_MUSIC_TITLE "Título"
+    IDS_COLUMN_NAME_MUSIC_ENCODEDBY "Codificado por"
+    IDS_COLUMN_NAME_MUSIC_ARTIST "Artista"
+    IDS_COLUMN_NAME_MUSIC_COMPOSER "Compositor"
+    IDS_COLUMN_NAME_MUSIC_CONDUCTOR "Director de orquesta"
+    IDS_COLUMN_NAME_MUSIC_ENCODERSETTINGS "Ajustes de codificador"
+    IDS_GENERAL_EXPAND_FOLDER "Expandir carpeta"
+    IDS_GENERAL_OPEN_IN_NEW_TAB "Abrir en nueva pestaña"
+    IDS_GENERAL_CREATE_FROM_DATE 
+                            "Copiar/Mover fotos a las carpetas creadas desde sus datos EXIF" 
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONVERT_HEADER      "Archivos"
+    IDS_CONVERT_TARGET_FOLDER "Carpeta destino:"
+    IDS_CONVERT_TARGET_FORMAT "Formato destino:"
+    IDS_CONVERT_DEFAULT_TARGET_FOLDER "Carpeta destino por defecto"
+    IDS_CONVERT_DEFAULT_TARGET_FORMAT "Formato destino por defecto"
+    IDS_DONE                "Hecho."
+    IDS_SIDECAR             "Crear un sidecar MIE(Meta Information Encapsulation) con todos los metadatos"
+    IDS_MODIFY              "Modificar / Añadir metadatos"
+    IDS_TXT_SIDECAR         "Crear un sidecar TXT(Text file) con todos los metadatos"
+    IDS_XML_SIDECAR         "Crear un sidecar XML(Extended Markup Language) con todos los metadatos"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IMPORT_METADATA     "Importar metadatos desde archivo..."
+    IDS_ADD_FROM_SCRATCH    "Añadir metadatos desde cero..."
+    IDS_REMOVE              "Borrar metadatos..."
+    IDS_EXPORT              "Exportar metadatos..."
+    IDS_SAVE_AS             "Guardar cómo..."
+    IDS_ADD                 "Añadir metadatos..."
+    IDS_EXPAND_COLLAPSE     "Expandir/Contraer metadatos"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERROR_1             "No se encuentra exiftool.exe!\nAbortando…"
+    IDS_ERROR_2             "Selecciona un archivo antes"
+    IDS_ERROR_3             "Debes reiniciar Metadata++"
+    IDS_ERROR_4             "Este atajo ya existe."
+    IDS_ERROR_5             "No se encuentran los archivos de configuración de este usuario\nEl programa iniciará con los parámetros por defecto."
+    IDS_ERROR_6             "No se puede conectar con la web de Logipole, lo siento."
+    IDS_ERROR_7             "No se puede crear la ventana principal\nAbortando."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SCRATCH_1           "Crear Exif desde cero."
+    IDS_SCRATCH_2           "Crear Iptc desde cero."
+    IDS_SCRATCH_3           "Crear Xmp desde cero."
+END
+
+STRINGTABLE
+BEGIN
+    IDM_INVERT_SELECTION    "Invertir Selección\t"
+    IDM_UNSELECT_ALL        "Deseleccionar todo\t"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GENERAL_DATEMODIFIED "Fecha de modificación"
+    IDS_GENERAL_COPYRIGHT   "Copyright"
+    IDS_GENERAL_TOTALFILESIZE "Tamaño total"
+    IDS_TAB_CLOSE_TIP       "Cerrar pestaña"
+    IDS_TAB_SELECT          "Seleccionar archivos"
+    IDS_TAB_GO_BACK         "Atrás"
+    IDS_TAB_GO_FORWARD      "Adelante"
+    IDS_TAB_GO_UPONELEVEL   "Arriba"
+    IDS_TAB_NEWTAB          "Añadir pestaña (Ctrl+N)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TAB_FILTER          "Filtro"
+    IDS_GENERAL_KO          "KB"
+    IDS_IMPORT_EXIF         "Importar EXIF desde archivo..."
+    IDS_IMPORT_IPTC         "Importar IPTC desde archivo..."
+    IDS_IMPORT_XMP          "Importar XMP desde archivo..."
+    IDS_IMPORT_GPS          "Importar GPS desde archivo..."
+    IDS_SAVEAS_HTML         "Guardar como HTML"
+    IDS_SAVEAS_HTMLDUMP     "Guardar como HTMLDUMP"
+    IDS_SAVEAS_JSON         "Guardar como JSON"
+    IDS_SAVEAS_MIE          "Guardar como MIE sidecar"
+    IDS_SAVEAS_PHP          "Guardar como PHP"
+    IDS_SAVEAS_TXT          "Guardar como TXT"
+    IDS_SAVEAS_XML          "Guardar como XML"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTE               "Texto"
+    IDS_IMPORT              "Importar metadata..."
+    IDS_NO_FILES_SELECTED   "Selecciona antes el(los) archivo(s)."
+    IDS_NO_FILES_SELECTED_FORMODIF 
+                            "Selecciona uno o varios archivos.\n(O haz click en el botón ayuda)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRINT               "Imprimir metadata"
+	IDM_FILE_OPEN           "Abrir con el programa asociado"
+	IDM_FILE_OPENWITH       "Abrir con..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COPY                "Copiar"
+    IDS_GENERAL_SELECTED_ONEITEM "item seleccionado"
+END
+
+STRINGTABLE
+BEGIN
+    IDM_SELECT_ALL_ONLY_FILES "Seleccionar todos los archivos\t"
+END
+
+STRINGTABLE
+BEGIN
+    IDM_EDIT_SELECTALLOFSAMETYPE "Seleccionar todos los del mismo tipo\t"
+END
+
+STRINGTABLE
+BEGIN
+    IDM_BTN_EXPORT_ICC      "Exportar ICC\t"
+    IDM_BTN_EXPORT_EXIF     "Exportar EXIF\t"
+    IDM_BTN_EXPORT_IPTC     "Exportar IPTC\t"
+    IDM_BTN_EXPORT_XMP      "Exportar XMP\t"
+    IDM_BTN_EXPORT_GPS      "Exportar GPS\t"
+    IDM_BTN_EXPORT_MAKERNOTES "Exportar MakerNotes\t"
+    IDM_BTN_EXPORT_THUMBNAILS "Exportar Thumbnails\t"
+    IDM_DISPLAY_HOTKEYS     "Mostrar la lista de atajos de teclado"
+END
+
+STRINGTABLE
+BEGIN
+    IDM_BTN_REMOVE_EXIF     "Borrar EXIF"
+    IDM_BTN_REMOVE_IPTC     "Borrar IPTC"
+    IDM_BTN_REMOVE_XMP      "Borrar XMP"
+    IDM_BTN_REMOVE_ICC      "Borrar ICC"
+    IDM_BTN_REMOVE_MAKERNOTES "Borrar MakerNotes"
+    IDM_BTN_REMOVE_GPS      "Borrar GPS"
+    IDM_BTN_REMOVE_ALL      "Borrar All"
+    IDS_ADD_EXIF_FROM_SCRATCH "Añadir EXIF desde cero"
+    IDS_ADD_IPTC_FROM_SCRATCH "Añadir IPTC desde cero"
+    IDS_ADD_XMP_FROM_SCRATCH "Añadir XMP desde cero"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_2             "\r\nMetadata++ usa Exiftool (de Phil Harvey) para mostrar y modificar los metadatos."
+    IDS_ABOUT_4             "http://www.logipole.com/donate-en.htm"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_NAME_PROTECTED "Protegido"
+    IDS_COLUMN_NAME_RATING  "Puntuación"
+    IDS_MISC_1              "Audio"
+    IDS_MISC_2              "Foto"
+    IDS_MISC_3              "Texto"
+    IDS_MISC_4              "Vídeo"
+    IDS_MISC_5              "IPTC ObjectData"
+    IDS_MISC_6              "IPTC NewsPhoto"
+    IDS_MISC_7              "IPTC EnvelopeRecord"
+    IDS_MISC_8              "IPTC ApplicationRecord"
+    IDS_COLUMN_NAME_LANGUAGE "Idioma"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_DESCRIPTION_FILETYPE "Tipo de archivo"
+    IDS_COLUMN_NAME_NAME    "Nombre"
+    IDS_COLUMN_NAME_TYPE    "Tipo"
+    IDS_COLUMN_NAME_SIZE    "Tamaño"
+    IDS_COLUMN_NAME_DATEMODIFIED "Fechacha de modificación"
+    IDS_COLUMN_NAME_ATTRIBUTES "Atributos"
+    IDS_COLUMN_NAME_REALSIZE "Tamaño en disco"
+    IDS_COLUMN_NAME_TYPEDEFICHIER "Tipo de archivo"
+    IDS_COLUMN_NAME_OWNER   "Propietario"
+    IDS_COLUMN_NAME_PRODUCTNAME "Nombre de producto"
+    IDS_COLUMN_NAME_COMPANY "Compañía"
+    IDS_COLUMN_NAME_DESCRIPTION "Descripción"
+    IDS_COLUMN_NAME_FILEVERSION "Versión de archivo"
+    IDS_COLUMN_NAME_PRODUCTVERSION "Versión de producto"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_NAME_EXTENSION "Extensión"
+    IDS_COLUMN_NAME_CREATED "Fecha creación"
+    IDS_COLUMN_NAME_ACCESSED "Fecha acceso"
+    IDS_COLUMN_NAME_AUTHOR  "Autor"
+    IDS_COLUMN_NAME_COMMENT "Comentarios"
+    IDS_COLUMN_NAME_HASMETA "Meta"
+    IDS_COLUMN_NAME_TOTALSIZE "Tamaño total"
+    IDS_COLUMN_NAME_FREESPACE "Espacio libre"
+    IDS_COLUMN_NAME_FILESYSTEM "Sistema de archivos"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_NAME_VIRTUALTYPE "Tipo"
+    IDS_VIEW_DETAILS        "Detalles"
+    IDS_VIEW_THUMBNAILS     "Thumbnails"
+    IDS_COLUMN_NAME_COPYRIGHT "Copyright"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_DESCRIPTION_NAME "Nombre de archivo"
+    IDS_COLUMN_DESCRIPTION_TYPE "Tipo de archivo"
+    IDS_COLUMN_DESCRIPTION_SIZE "Tamaño lógico de archivo"
+    IDS_COLUMN_DESCRIPTION_MODIFIED "Fecha de modificación de archivo"
+    IDS_COLUMN_DESCRIPTION_ATTRIBUTES "Atributos de archivo"
+    IDS_COLUMN_DESCRIPTION_REALSIZE "Tamaño físico de archivo"
+    IDS_COLUMN_DESCRIPTION_OWNER "Propietario del archivo"
+    IDS_COLUMN_DESCRIPTION_PRODUCTNAME 
+                            "Nombre del producto asociado con el ejecutable"
+    IDS_COLUMN_DESCRIPTION_COMPANY "Compañía asociada al ejecutable"
+    IDS_COLUMN_DESCRIPTION_DESCRIPTION "Descripción de archivo"
+    IDS_COLUMN_DESCRIPTION_FILEVERSION 
+                            "Versión asociada con el ejecutable o DLL"
+    IDS_COLUMN_DESCRIPTION_PRODUCTVERSION "Versión de producto"
+    IDS_COLUMN_SHORTCUT     "Acceso directo  (doble-click para editar)"
+    IDS_COLUMN_DESCRIPTION_EXTENSION "Extensión del archivo"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLUMN_DESCRIPTION_CREATED "Fecha de creación"
+    IDS_COLUMN_DESCRIPTION_ACCESSED "Fecha de último acceso"
+    IDS_COLUMN_DESCRIPTION_TITLE "Título de archivo"
+    IDS_COLUMN_DESCRIPTION_COMMENT "Comentarios asociados con un archivo"
+    IDS_COLUMN_DESCRIPTION_TOTALSIZE "Tamaño total de la unidad"
+    IDS_COLUMN_DESCRIPTION_FREESPACE "Espacio libre disponible en una unidad"
+    IDS_COLUMN_DESCRIPTION_FILESYSTEM "Sistema de archivos instalado en una unidad"
+    IDS_COLUMN_DESCRIPTION_HASMETA "Meta"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VIEW_JUMBO          "Icons enormes"
+    IDS_OTHERS              "Otros"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DISPLAY_EXIF        "Mostrar EXIF"
+    IDS_DISPLAY_IPTC        "Mostrar IPTC"
+    IDS_DISPLAY_XMP         "Mostrar XMP"
+    IDS_DISPLAY_MAKERNOTES  "Mostrar Makernotes"
+    IDS_DISPLAY_ICC         "Mostrar ICC"
+    IDS_DISPLAY_GPS         "Mostrar GPS"
+    IDS_DISPLAY_COMPOSITE   "Mostrar Compuesto"
+    IDS_DISPLAY_SPECIFIC    "Mostrar Específico"
+    IDS_DISPLAY_SYSTEM      "Mostrar Sistema"
+    IDS_APPLY               "Aplicar"
+    IDS_CANCEL              "Cancelar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SORTBY_NAME         "Nombre"
+    IDS_SORTBY_SIZE         "Tamaño"
+    IDS_SORTBY_TYPE         "Tipo"
+    IDS_SORTBY_DATEMODIFIED "Fecha modificación"
+    IDS_SORTBY_TOTALSIZE    "Tamaño total"
+    IDS_SORTBY_FREESPACE    "Espacio libre"
+    IDS_SORTBY_DATEDELETED  "Fecha borrado"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SORTBY_ORIGINALLOCATION "Localización original"
+    IDS_SORTBY_ATTRIBUTES   "Atributos"
+    IDS_SORTBY_REALSIZE     "Tamaño real"
+    IDS_SORTBY_OWNER        "Propietario"
+    IDS_SORTBY_PRODUCTNAME  "Nombre producto"
+    IDS_SORTBY_COMPANY      "Compañía"
+    IDS_SORTBY_DESCRIPTION  "Descripción"
+    IDS_SORTBY_FILEVERSION  "Versión archivo"
+    IDS_SORTBY_PRODUCTVERSION "Versión de producto"
+    IDS_SORTBY_EXTENSION    "Extensión"
+    IDS_SORTBY_CREATED      "Fecha creación"
+    IDS_SORTBY_ACCESSED     "Fecha último acceso"
+    IDS_SORTBY_TITLE        "Título"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GENERAL_SELECTED_MOREITEMS "ítems seleccionados"
+    IDS_GENERAL_ONEITEM     "ítem"
+    IDS_GENERAL_MOREITEMS   "ítems"
+    IDS_GENERAL_READY       "Listo"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GENERAL_SELECT      "Selecciona un archivo"
+END
+
+
+ 
