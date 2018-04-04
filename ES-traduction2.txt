@@ -1,7 +1,7 @@
-1=Make a copy of the original files
-2=Selected Files
-3=Metadata++ initializing Exiftool
-4=Metadata++ is a free software (freeware), no restrictions of use apply.\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.\nIf you have any questions, please check the Logipole Forums first.
+1=Hacer una copia del archivo original
+2=Archivos seleccionados
+3=Metadata++ está inicializando Exiftool
+4=Metadata++ es software gratuito (freeware). No hay restricciones de uso.\nEste programa se distribuye con la esperanza de que sea útil, pero sin NINGUNA GARANTÍA.\nPara dudas, por favor comprueba primero el foro de Logipole.
 5=Include traffic information
 6=Color Selection
 7=Include Sub Folders
